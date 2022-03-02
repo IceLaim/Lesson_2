@@ -12,15 +12,15 @@ public class HomeWork2 {
 
     public static boolean sumWithin10and20(int a, int b) {
         int sum = a + b;
-        return sum >= 10 & sum <= 20;
+        return sum >= 10 && sum <= 20;
     }
 
 
     public static void numPositiveOrNegative(int с) {
         if (с < 0) {
-            System.out.println("Negative");
+            System.out.println("Отрицательное");
         } else {
-            System.out.println("Positive");
+            System.out.println("Положительное");
         }
     }
 
@@ -36,8 +36,7 @@ public class HomeWork2 {
 
     public static void printWordNTimes(String words, int times) {
         for (int i = 1; i <= times; i++) {
-            System.out.println(words);
+            System.out.println("[" + i + "]" + " " + words);
         }
-
     }
 }

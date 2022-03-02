@@ -5,6 +5,8 @@ public class HomeWork2 {
     public static void main(String[] args) {
         System.out.println(sumWithin10and20(10, 5));
         numPositiveOrNegative(-5);
+        System.out.println(numNegative(25));
+        printWordNTimes("Привет", 3 );
     }
 
 
@@ -14,16 +16,28 @@ public class HomeWork2 {
     }
 
 
-    public static void numPositiveOrNegative(int x) {
-        if (x < 0) {
+    public static void numPositiveOrNegative(int с) {
+        if (с < 0) {
             System.out.println("Negative");
         } else {
             System.out.println("Positive");
         }
     }
 
-
-
-
+    public static boolean numNegative(int d) {
+        if (d < 0) {
+            return true;
+        } else {
+            return false;
         }
 
+    }
+
+
+    public static void printWordNTimes(String words, int times) {
+        for (int i = 1; i <= times; i++) {
+            System.out.println(words);
+        }
+
+    }
+}

@@ -24,6 +24,7 @@ public class HomeWork2 {
         }
     }
 
+
     public static boolean numNegative(int d) {
         if (d < 0) {
             return true;
